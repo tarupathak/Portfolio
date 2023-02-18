@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Manrope';
+}
+
+#heading{
+    color: white;
+    font-family: 'Kaushan Script';
+    height: 9vh;
+    width: 15vw;
+    font-size: 4vw;
+    margin-left: 6vw;
+    margin-top: 2vh;
+    flex-direction: row;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#cover_img{
+    flex-direction: column;
+    height: 70vh;
+    width: 25vw;
+     /* margin-left: 12vw; */
+    margin-top: 9vh;
+    border-radius: 2vw;
+}
+
+#discrip{
+    color: white;
+    font-size: 5vh;
+    margin-top: 32vh;
+    margin-left: -4vw;
+    height: 56vh;
+    width: 53vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 3.1vh;
+}
+
+#discrip span{
+    color: gray;
+}
+
+#About{
+    display: flex;
+}
+
+#about_img{
+    height: 70vh;
+    width: 25vw;
+    margin-top: 10vh;
+    border-radius: 2vw;
+    margin-left: 8vw;
+}
+
+#head{
+    color: white;
+    font-size: 8vh;
+    margin-top: 12vh;
+    margin-left: 4vw;
+    font-weight: 500;
+}
+
+#dis{
+    color: gray;
+    height: 50vh;
+    width: 50vw;
+    margin-left: 4vw;
+    font-size: 4vh;
+}
+
+#Education{
+    display: flex;
+}
+
+#edu_img{
+    height: 80vh;
+    width: 40vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+
+#head2{
+    color: white;
+    font-size: 8vh;
+    margin-top: 12vh;
+    font-weight: 500;
+    margin-left: 4vw;
+}
+
+
+#disc{
+    color: gray;
+    font-size: 4vh;
+    width: 40vw;
+    margin-left: 4vw;
+}
+
+
+#skill_sec{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill{
+    align-items: center;
+    height: 18vh;
+    width: 10vw;
+    margin:6vw;
+}
+
+#head3{
+    color: white;
+    font-size: 8vh;
+    margin-top: 12vh;
+    font-weight: 500;
+    margin-left: 4vw;
+    text-align: center;
+}
+
+#cont{
+    display:flex;
+  flex-direction: row;
+}
+
+.con{
+    align-items: center;
+    margin: 2vw;
+    height: 10vh;
+    width: 10vw;
+    margin-left: 15vw;
+}
+
+#Projects{
+    display: flex;
+    justify-content: center;
+}
+
+#pro_img{
+    height: 80vh;
+    width: 50vw;
+    margin-left: 4vw;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+#head4{
+    color: white;
+    font-size: 8vh;
+    margin-top: 12vh;
+    font-weight: 500;
+    margin-left: 4vw;
+}
+
+#pro{
+    color: gray;
+    font-size: 4vh;
+    width: 40vw;
+    margin-left: 4vw;
+}
